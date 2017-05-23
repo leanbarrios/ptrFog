@@ -3,6 +3,14 @@ class Auto():
 		self._modelo = modelo
 		self._tipo = tipo
 		self._velocidad = 0
+		self._estado =  ""
+		
+	def setEstado(self, estado):
+		self._estado=estado	
+	
+	def getEstado(self):
+		return self._estado
+
 		
 class Patrullero(Auto):
 	    def __init__(self):
