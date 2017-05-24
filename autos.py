@@ -1,3 +1,9 @@
+#-- @Autor: Maximiliano Rodrigo Soria
+#-- Version: 1.0
+#-- Python 2.7.13 
+#-- Anio 2013
+#-- Programacion en Tiempo real
+
 class Auto():
 	def __init__(self, modelo,tipo):
 		self._modelo = modelo
