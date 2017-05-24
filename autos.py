@@ -10,6 +10,16 @@ class Auto():
 	
 	def getEstado(self):
 		return self._estado
+		
+	def arrancar(self):
+		pass
+	
+	def frenar(self):
+		pass
+	
+	def devolverModelo(self):
+		return self._modelo	
+	
 
 		
 class Patrullero(Auto):
