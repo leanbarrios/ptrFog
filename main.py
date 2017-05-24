@@ -10,6 +10,10 @@ class VentanaMonitor(Ventana):
 	def __init__(self):		
 		Ventana.__init__(self,"600","800","Monitor de objetos")
 	
+	def elementos(self,ventana):
+		etiqueta = Label(ventana,text="Maxi prueba")
+		etiqueta.pack()
+	
 
 def main():
 	v=VentanaMonitor()

@@ -9,13 +9,18 @@ class Ventana():
 		self._titulo=titulo
 		
 		
+		
 	def iniciar(self):
 		ventana = Tk()	
 		ventana.geometry(self._ancho+"x"+self._alto)
 		ventana.title(self._titulo)
-		etiqueta = Label(ventana,text="Maxi prueba")
-		etiqueta.pack()
+		self.elementos(ventana)
+		
+		
 		ventana.mainloop()
+		
+	def elementos(self,ventana):
+		pass
 
 print("sadsdaa")
 #titulo="Monitor de objetos"
