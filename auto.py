@@ -26,19 +26,3 @@ class Auto():
 	def devolverModelo(self):
 		return self._modelo	
 	
-
-		
-class Patrullero(Auto):
-	    def __init__(self):
-			pass
-
-class Auto_Generico(Auto):
-	    def __init__(self):
-			pass
-
-
-def auto_prueba():
-	print("Tengo mi auto generico y el patrullero")
-
-
-auto_prueba()

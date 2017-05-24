@@ -4,7 +4,8 @@
 #-- Anio 2013
 #-- Programacion en Tiempo real
 
-from autos import *
+from auto_generico import *
+from auto_patrullero import *
 from semaforo import *
 from error import *
 from punto_de_captura import *
