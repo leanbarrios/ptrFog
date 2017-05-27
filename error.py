@@ -1,6 +1,6 @@
 #-- @Autor: Maximiliano Rodrigo Soria
 #-- Version: 1.0
-#-- Python 2.7.13  mmm
+#-- Python 2.7.13 
 #-- Anio 2013
 #-- Programacion en Tiempo real
 
