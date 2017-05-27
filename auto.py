@@ -5,11 +5,12 @@
 #-- Programacion en Tiempo real
 
 class Auto():
-	def __init__(self, modelo,tipo):
+	def __init__(self, modelo,tipo, patente):
 		self._modelo = modelo
 		self._tipo = tipo
 		self._velocidad = 0
 		self._estado =  ""
+		self._patente = patente
 		
 	def setEstado(self, estado):
 		self._estado=estado	

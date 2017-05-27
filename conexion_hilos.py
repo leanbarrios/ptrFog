@@ -8,7 +8,7 @@ import threading
 
 def trabajo():
     """funcion que realiza el trabajo en el thread"""
-    print 'Este es un hilo - Tomas se la come'
+    print 'Este es un hilo'
     return
 threads = list()
 for i in range(3):
