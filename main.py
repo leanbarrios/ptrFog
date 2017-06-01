@@ -10,8 +10,9 @@ from semaforo import *
 from error import *
 from punto_de_captura import *
 from punto_visto import *
-from conexion_hilos import *
+#from conexion_hilos import *
 from interfaz_grafica import *
+from grafosConPesos import *
 
 
 #Esta clase crea una ventana 

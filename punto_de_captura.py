@@ -4,6 +4,8 @@
 #-- Anio 2013
 #-- Programacion en Tiempo real
 
+from grafosConPesos import *
+
 class PuntoDeCaptura():
 	def __init__(self, estado):		
 		self._estado =  ""
@@ -13,8 +15,12 @@ class PuntoDeCaptura():
 	
 	def getEstado(self):
 		return self._estado
+
+	
+
+
+
 def error():
 	print("Soy un punto de captura")
-
 
 error()
