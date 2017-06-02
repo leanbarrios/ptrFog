@@ -7,12 +7,30 @@ class Grafo(object):
         return str(self.relaciones)
 
 class Arista(object):
-    def __init__(self, elemento, peso):
+    def __init__(self, elemento, peso, lleno,delincuente):
         self.elemento = elemento
-        self.peso = peso        
+        self.peso = peso 
+        self.lleno = 0
+        self.delincuente=False
     def __str__(self):
         return str(self.elemento) + str(self.peso)
 
+    def agregar_quitar_lleno(self, numero):
+    	if (self.lleno-numero) < 0 and (self.lleno+numero) > 100:
+    		
+    	else:
+    		self.lleno=self.lleno+numero
+    def getLleno(self):
+    	return lleno
+    def setDelincuente(self):
+    	if self.delincuente==False:
+    		self.delincuente=True
+    	elif self.delincuente==True:
+    		self.delincuente=False
+    def getDelincuente(self):
+    	return self.delincuente	    
+
+    	 
  
 def agregar(grafo, elemento):
     grafo.relaciones.update({elemento:[]})

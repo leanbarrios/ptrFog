@@ -3,6 +3,8 @@
 #-- Python 2.7.13 
 #-- Anio 2013
 #-- Programacion en Tiempo real
+from auto import *
+
 
 class Error():
 	def __init__(self, estado):		
@@ -13,7 +15,6 @@ class Error():
 	
 	def getEstado(self):
 		return self._estado
-		
 		
 def error():
 	print("Soy un error")
